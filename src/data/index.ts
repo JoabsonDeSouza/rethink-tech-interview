@@ -1,4 +1,4 @@
-import { FakeItemType } from "../types";
+import { TypeFakePeople as FakeItemType } from "../types";
 
 export const fakeData: FakeItemType[] = [
   {

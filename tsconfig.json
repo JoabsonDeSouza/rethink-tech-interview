@@ -1,0 +1,22 @@
+{
+    "extends": "ts-node/node12/tsconfig.json",
+    "ts-node": {
+        "transpileOnly": true,
+        "files": true,
+        "compilerOptions": {}
+      },
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": ["es6", "DOM"],
+    "module": "commonjs",
+    "rootDir": "src",
+    "resolveJsonModule": true,
+    "outDir": "./dist/",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "allowJs": true,
+  }
+}
